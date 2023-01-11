@@ -1,0 +1,64 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/* navbar style */
+.nav-container {
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+  background-color: #c5c5c5;
+  color: white;
+}
+.items {
+  display: flex;
+}
+.item {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px;
+  margin-right: 10px;
+  list-style: none;
+}
+/* banner style  */
+.banner-container {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url("./asset/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-blend-mode: overlay;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+.banner-details{
+    
+}
+.title-banner{
+    font-size: 85px;
+    font-weight: bold;
+}
+.primary{
+    color: rgb(194, 34, 34);
+}
+.description{
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding: 15px 35px;
+    border: none;
+    font-size: 18px;
+    margin: 5px;
+    border-radius: 7px;
+}
+.btn-discover{
+    background-color: red;
+    color: white;
+}
+.btn-hire{
+    color: red;
+}
